@@ -1,0 +1,366 @@
+body
+{
+    position: relative;
+    height: 520px;
+}
+
+a:link {
+    
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.mainLeft
+{
+    position: relative;
+    background-color:#121b28;
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: 90vh;
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+    overflow: auto;
+}
+
+.mainLeft h1
+{
+    position: relative;
+    margin: 20px 0px 60px 0px;
+}
+
+.selectColumn
+{
+    position: relative;
+    border-radius: 0px 0px 0px 10px;
+    height: 60vh;
+    font-family: cursive;
+}
+
+.dashboard
+{
+    position: relative;
+    background-color: #121b28;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.transaction
+{
+    position: relative;
+    background-color: #121b28;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.payment
+{
+    position: relative;
+    background-color: #121b28;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.settings
+{
+    position: relative;
+    background-color: #121b28;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.signout
+{
+    position: relative;
+    background-color: #121b28;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px 50px 0px;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.dashboard:hover,
+.payment:hover,
+.transaction:hover,
+.settings:hover,
+.signout:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.mainRight
+{
+    position: relative;
+    margin: 10px;
+    background-color: #f5f5f5;
+    width: 78.5%;
+    height: 94vh;
+    left: 21vw;
+    bottom: 97.5vh;
+    z-index: 0;
+}
+
+.mainRight h2
+{
+    position: relative;
+    top: 2vh;
+    background-color: #f5f5f5;
+    width: 130px;
+    left: 30px;
+    font-family: cursive;
+    
+}
+
+.cards
+{
+    position: relative;
+    display: flex;
+    margin: 0px 0px 0px 20px;
+    background-color: #f5f5f5;
+    width: 60%;
+    height: 20%;
+    text-align: center;
+    z-index: 1;
+}
+
+.card1
+{
+    position: relative;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 20%;
+    height: 100%;
+    margin: 10px;
+    transition: transform 1s;
+
+}
+
+.card2
+{
+    position: relative;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 20%;
+    height: 100%;
+    margin: 10px;
+    transition: transform 1s;
+}
+
+.card3
+{
+    position: relative;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 20%;
+    height: 100%;
+    margin: 10px;
+    transition: transform 1s;
+}
+
+.card4
+{
+    position: relative;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 20%;
+    height: 100%;
+    margin: 10px;
+    transition: transform 1s;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover
+{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px 2px #7c7d7e;
+}
+
+.history
+{
+    position: relative;
+    bottom: 20vh;
+    margin: 10px 0px 0px 10px;
+    background-color: #faf8f8;
+    width: 97%;
+    height: 58%;
+    z-index: 0;
+}
+
+.history h1
+{
+    position: relative;
+    top: 2vh;
+    text-align: center;
+    font-family: cursive;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    font-family: cursive;
+}
+th {
+    background-color: #f5f7fa;
+}
+
+.action
+{
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    left: 66%;
+    bottom: 25vh;
+    width: 30%;
+    height: 30%;
+    font-family: cursive;
+    overflow: scroll;
+    background-color: #ebe6e6;
+}
+
+.action h3
+{
+    position: relative;
+    left: 40%;
+    margin: 5px 0px 0px 5px;
+}
+
+.send
+{
+    color: black;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    min-width: 30%;
+    width: auto;
+    right: 20%;
+    height: 70%;
+    margin: 40px 0px 0px 20px;
+    background-color: #ffffff;
+    transition: transform 1s;
+}
+
+.receive
+{
+    color: black;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    min-width: 30%;
+    width: auto;
+    height: 70%;
+    margin: 40px 0px 0px 20px;
+    background-color: #ffffff;
+    transition: transform 1s;
+}
+
+.send:hover,
+.receive:hover
+{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px 2px #7c7d7e;
+}
+
+.moneyRequest
+{
+    position: relative;
+    height: 100%;
+    width:98%;
+    bottom: 121%;
+    background-color: #121b28;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.moneyContainer
+{
+    position: relative;
+    background-color: white;
+    width: 40%;
+    height: 70%;
+    bottom: 205%;
+    left: 30%;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 2;
+    
+}
+
+@media screen and (max-width:620px) and (max-height:400px)
+{
+    body
+    {
+        display: flex;
+    }
+    .mainLeft
+    {
+        width: 120px;
+        height: 400px;
+    }
+    .mainRight
+    {
+        width: 300px;
+        bottom: 450px;  
+    }
+    .cards
+    {
+        height: 100px;
+        top: 400px;
+        right: 130px;
+    }
+    .history
+    {
+        width: 300px;
+        right: 130px;
+        top: 270px;
+        
+    }
+    .act
+    {
+        top: 500px;
+        right: 200px;
+    }
+    .action
+    {
+        left: 330px;
+    }
+    .send
+    {
+        width: auto;
+    }
+    .receive
+    {
+        width:auto
+    }
+}

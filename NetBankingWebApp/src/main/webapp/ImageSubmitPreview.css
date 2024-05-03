@@ -1,0 +1,67 @@
+.imagepreview img
+{
+    position: relative;
+    bottom: 20px;
+    left: 460px;
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+body
+{
+    background-color: #f0f0f0;
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: auto;
+}
+
+.main
+{
+    position: relative;
+    border-radius: 10px;
+    top: 10px;
+    left: 10px;
+    width: 1250px;
+    height:560px;
+    background-color: #f0f0db;
+}
+
+.main h2
+{
+    position: relative;
+    color: #bebaba;
+    bottom: 200px;
+    width: 100px;
+    padding: 20px; 
+    z-index: 1;  
+}
+
+#head
+{
+    position: relative;
+    border-radius: 10px;
+    width: 1250px;
+    height: 200px;
+    z-index: 0;
+}
+
+.sign
+{
+    position: relative;
+    transform: scale(1.2);
+    left: 500px;
+    width: 400px;
+    
+}
+
+.sign button
+{
+    position: relative;
+    left: 250px;
+    cursor: pointer;
+}
+
