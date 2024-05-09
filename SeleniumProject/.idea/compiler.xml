@@ -9,5 +9,8 @@
         <module name="IRCTC_Ticket_Booking_Automation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="IRCTC_Ticket_Booking_Automation" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>
