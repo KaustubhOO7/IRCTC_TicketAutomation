@@ -13,7 +13,7 @@ This project aims to automate the process of booking tickets on the Indian Railw
 Before running the script, ensure you have the following dependencies installed:
 
 - Java 8 or above
-- Selenium WebDriver for Python
+- Selenium WebDriver for Java
 - Third-party CAPTCHA solver API key
 
 Obtain API key for the third-party CAPTCHA solver service. I have used OCRSpace API
