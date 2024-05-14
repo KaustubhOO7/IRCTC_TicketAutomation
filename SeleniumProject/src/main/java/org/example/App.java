@@ -37,8 +37,8 @@ public class App {
         driver.findElement(By.cssSelector("button[class = 'search_btn']")).click();
 
         //Filling Username and Password
-        driver.findElement(By.cssSelector("input[placeholder = 'User Name']")).sendKeys("kstbsharma");
-        driver.findElement(By.cssSelector("input[placeholder = 'Password']")).sendKeys("Kstb1999");
+        driver.findElement(By.cssSelector("input[placeholder = 'User Name']")).sendKeys("");
+        driver.findElement(By.cssSelector("input[placeholder = 'Password']")).sendKeys("");
 
         //Captcha Value Catching
         WebElement element = driver.findElement(By.cssSelector(".captcha-img"));
@@ -81,8 +81,8 @@ public class App {
         //Change here also the train class
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[class='tbis-div'] div:nth-child(1) div:nth-child(1) app-train-avl-enq:nth-child(1) div:nth-child(1) div:nth-child(5) div:nth-child(1) table:nth-child(1) tr:nth-child(1) td:nth-child(1) div:nth-child(1) div:nth-child(2)")));
 
-        //Wait till the Time to click on selecting class
-        waitUntilSpecificTime(LocalTime.of(1,4,0), ZoneId.of("Asia/Kolkata"));
+        //Wait till the Time to click on selecting class. 24hr format
+        waitUntilSpecificTime(LocalTime.of(10,0,0), ZoneId.of("Asia/Kolkata"));
 
 //------------From here user have to change the css locator according to the train----------
 
@@ -109,7 +109,6 @@ public class App {
         driver.findElement(By.cssSelector("input[placeholder='Age']")).sendKeys("25");
         driver.findElement(By.cssSelector(".form-control.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted")).sendKeys("Male");
         driver.findElement(By.cssSelector("select[formcontrolname='passengerBerthChoice']")).sendKeys("Upper");
-        driver.findElement(By.cssSelector("#FOOD_0")).sendKeys("Veg");
 
         //Click on Add passenger
         driver.findElement(By.cssSelector("div[class='form-group col-xs-12 border-all'] span:nth-child(2)")).click();
@@ -120,7 +119,6 @@ public class App {
         driver.findElement(By.cssSelector(".form-control.ng-untouched.ng-pristine.ng-invalid[maxlength='3']")).sendKeys("23");
         driver.findElement(By.cssSelector(".form-control.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted")).sendKeys("Male");
         driver.findElement(By.cssSelector("div[class='Layer_7 col-sm-3 col-xs-6 ng-star-inserted'] select[class='form-control ng-untouched ng-pristine ng-valid ng-star-inserted']")).sendKeys("Upper");
-        driver.findElement(By.cssSelector("#FOOD_1")).sendKeys("Veg");
 
         //Click on BHIM UPI
         driver.findElement(By.cssSelector("span[class='ui-radiobutton-icon ui-clickable']")).click();
