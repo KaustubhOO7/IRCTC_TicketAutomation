@@ -29,8 +29,8 @@ public class App
 {
     public static void main( String[] args ) throws Exception
     {
-    	String userName = "kstbsharma";
-    	String password = "Kstb1999";
+    	String userName = "IRCTC_user_name";
+    	String password = "IRCTC_password";
     	String from = "NEW DELHI - NDLS (NEW DELHI)"; //Always write in the same format
     	String to = "RANCHI - RNC (HATIA/RANCHI)"; //Always write in the same format
     	String date = "21";
@@ -257,9 +257,9 @@ public class App
 
         driver.findElement(By.cssSelector("body > app-root:nth-child(2) > app-home:nth-child(2) > div:nth-child(3) > div:nth-child(1) > app-payment-options:nth-child(2) > div:nth-child(7) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > app-payment:nth-child(1) > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > div:nth-child(1) > span:nth-child(1) > div:nth-child(3) > span:nth-child(2)")).click();
         driver.findElement(By.cssSelector("div[class='col-pad col-sm-9 bank-box hidden-xs ng-star-inserted'] td[class='col-lg-12 col-md-12 col-pad col-sm-12 col-xs-12 pull-left'] span[class='col-pad']")).click();
-    //    driver.findElement(By.cssSelector("button[class='btn btn-primary hidden-xs ng-star-inserted']")).click();
-//
-//        //Done, Only do the Payment
+        driver.findElement(By.cssSelector("button[class='btn btn-primary hidden-xs ng-star-inserted']")).click();
+
+        //Done, Only do the Payment
 
     }
    
@@ -307,7 +307,7 @@ public class App
         String result = null;
         try
         {
-            String apiKey = "K84460331288957";
+            String apiKey = "your_api_key";
             String apiUrl = "https://api.ocr.space/parse/image";
             // Create URL object
             URL url = new URL(apiUrl);
