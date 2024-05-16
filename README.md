@@ -1,6 +1,7 @@
 # IRCTC Ticket Booking Automation with Selenium and CAPTCHA Solver
 
-This project aims to automate the process of booking tickets on the Indian Railway Catering and Tourism Corporation (IRCTC) website using Selenium WebDriver. It also incorporates a third-party CAPTCHA solver to bypass the CAPTCHA verification during the booking process, but cannot able to solve TATKAL CAPTCHA.
+This project aims to automate the process of booking tickets on the Indian Railway Catering and Tourism Corporation (IRCTC) website using Selenium WebDriver. It also incorporates a third-party CAPTCHA solver to bypass the CAPTCHA verification during the booking process, 
+**BUT CANNOT ABLE TO FULLY SOLVE TATKAL CAPTCHA**.
 
 ## Features
 
